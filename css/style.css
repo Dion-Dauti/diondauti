@@ -1,0 +1,111 @@
+body{
+    background-color: #EEE9DA;
+    color:#212529;
+}
+button.btn{
+    background-color: #FED766 ;
+    color: #212529;
+    font-family: 'Roboto', sans-serif;
+}
+button.btn:hover{
+    animation: pulsate 1s infinite;
+}
+
+@keyframes pulsate {
+0% {
+    transform: scale(1);
+}
+50% {
+    transform: scale(1.1);
+}
+100% {
+    transform: scale(1);
+}
+}
+
+.flexbox-container{
+    display: flex;
+}
+.myface {
+   
+    display: flex;
+    justify-self: unset;
+    align-self: center;
+    overflow: clip;
+    width: 100%;
+    max-width: 175px;
+    border-radius: 50%;
+    margin: 5px;
+    margin-bottom: 40px;
+    padding: 5px;
+}
+svg{
+    padding-right: 10px;
+}
+@media (min-width: 57.8125em){
+         .myface {
+            padding: 5px;
+            border: 1px solid #EEE9DA;
+         }}
+
+@media (max-width:700px){
+    #sidenav{
+        display: none;
+    }
+   
+}
+
+#sidenav {
+    width: 280px;
+    position: sticky;
+    top: 0;
+    background-color: #BDCDD6; 
+    padding: 0px;
+    height: calc(100vh - 80px);
+}
+#profession{
+    font-weight: 500;
+}
+
+
+.sidenav-text > h3{
+    font-family: 'Roboto', sans-serif;
+}
+.sidenav-text > * {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+div.skyblueish{
+    background-color: #BDCDD6;}
+li>a:hover{
+    background-color: #6096B4;
+}
+#main{
+    flex: 1;
+    padding: 15px;
+    background-color: #EEE9DA;
+}
+#main >h1{
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 700;
+}
+#main >h2 {
+    font-size:20px;
+    padding: 10px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+#main > h1,h2,h3,h4 {
+    font-family: 'Roboto', sans-serif;
+}
+#main > p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 10px;
+}
+.pale{
+    opacity: 0.6;}
+#uni{
+    margin-bottom: 4px;
+}
